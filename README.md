@@ -1,10 +1,7 @@
 # metatrader-devops
 
-
-cd build
-
-Setup your path to the directory where yuor repo is cloned to get command line and build system to compile
-mql source code. Also update the path of your MT4 & MT5 root folders in the mt4-compile.bat/mt5-compile.bat files
+Setup your env's path to the build directory where your repo is cloned to get command line and build system to compile
+mql source code.
 
 ## MT4 Setup
 
