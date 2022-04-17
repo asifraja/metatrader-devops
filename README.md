@@ -33,27 +33,29 @@ mql source code. Also update the path of your MT4 & MT5 root folders in the mt4-
 
 ## MT5 Setup
 
+## Examples
+
 ### DEV
 
-    mt5-dev-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Dev"
-    mt5-dev-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Dev" "D:\Meta Trader Repo\Source"
+    mt5-dev-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Dev" Fearless
+    mt5-dev-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Dev" "D:\Meta Trader Repo\Source" Fearless
 
 ### TEST
 
-    mt5-test-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Test"
-    mt5-test-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Test" "D:\Meta Trader Repo\Source"
+    mt5-test-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Test" Fearless
+    mt5-test-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Test" "D:\Meta Trader Repo\Source" Fearless
 
 ### PROD
 
-    mt5-prod-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Asif"
-    mt5-prod-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Asif" "D:\Meta Trader Repo\Source"
+    mt5-prod-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Asif" Fearless
+    mt5-prod-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Asif" "D:\Meta Trader Repo\Source" Fearless
 
 ### ALL
 
-    mt5-dev-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Dev"
-    mt5-test-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Test"
-    mt5-prod-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Asif"
+    mt5-dev-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Dev" Fearless
+    mt5-test-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Test" Fearless
+    mt5-prod-reset "D:\Meta Trader 5\MetaTrader 5 IC Markets - Asif" Fearless
 
-    mt5-dev-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Dev" "D:\Meta Trader Repo\Source"
-    mt5-test-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Test" "D:\Meta Trader Repo\Source"
-    mt5-prod-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Asif" "D:\Meta Trader Repo\Source"
+    mt5-dev-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Dev" "D:\Meta Trader Repo\Source" Fearless
+    mt5-test-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Test" "D:\Meta Trader Repo\Source" Fearless
+    mt5-prod-setup "D:\Meta Trader 5\MetaTrader 5 IC Markets - Asif" "D:\Meta Trader Repo\Source" Fearless
