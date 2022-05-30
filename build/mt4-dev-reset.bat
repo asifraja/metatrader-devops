@@ -1,4 +1,5 @@
 rmdir  %1\MQL4\Experts\%2 
+rmdir  %1\MQL4\Experts\Released
 rmdir  %1\MQL4\Experts\External 
 rmdir  %1\MQL4\Experts\Runtime
 rmdir  %1\MQL4\Indicators\%2 

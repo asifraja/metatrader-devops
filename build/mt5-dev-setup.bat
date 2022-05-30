@@ -1,4 +1,5 @@
 mklink /D  %1\MQL5\Experts\%3 %2\Experts\%3\
+mklink /D  %1\MQL5\Experts\Released %2\Builds\Experts\%3\
 mklink /D  %1\MQL5\Experts\External %2\Experts\External\
 mklink /D  %1\MQL5\Experts\Runtime %2\Experts\Runtime\
 mklink /D  %1\MQL5\Experts\Legacy %2\Experts\Legacy\
