@@ -166,3 +166,15 @@ dockerhub.kayani.cloud
 portainer.kayani.cloud
 manage.kayani.cloud
 remotely.codes
+
+
+https://stackoverflow.com/questions/28349392/how-to-push-a-docker-image-to-a-private-repository#:~:text=log%20into%20your%20docker%20hub,marked%20as%20private%20by%20default.
+https://docs.docker.com/registry/spec/api/
+https://dockerhub.kayani.cloud/v2/_catalog
+
+docker push to local repo
+=========================
+https://stackoverflow.com/questions/28349392/how-to-push-a-docker-image-to-a-private-repository#:~:text=log%20into%20your%20docker%20hub,marked%20as%20private%20by%20default.
+
+docker tag asifraja/node-web-app:latest dockerhub.kayani.cloud/asifraja/node-web-app
+dockerdocker push dockerhub.kayani.cloud/asifraja/node-web-app
